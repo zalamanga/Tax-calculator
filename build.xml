@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TaxCalculator" default="default" basedir=".">
+    <description>Build the educational progressive tax calculator.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <target name="test" depends="compile-test" description="Run regression tests without external libraries.">
+        <java classname="taxcalculator.TaxRulesTest" fork="true" failonerror="true">
+            <classpath path="${run.test.classpath}"/>
+            <jvmarg value="-ea"/>
+        </java>
+        <java classname="taxcalculator.TaxCalculatorTest" fork="true" failonerror="true">
+            <classpath path="${run.test.classpath}"/>
+            <jvmarg value="-ea"/>
+        </java>
+    </target>
+</project>
