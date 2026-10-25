@@ -74,6 +74,8 @@ Nilai pajak ditampilkan dengan dua digit desimal menggunakan `RoundingMode.HALF_
 
 ## API perhitungan
 
+[Alur kode](docs/CODE_FLOW.md) memperlihatkan validasi input, pemilihan lapisan tarif, pembulatan, dan adapter API lama.
+
 Kelas berikut berada dalam package `taxcalculator`:
 
 ```java
