@@ -4,6 +4,12 @@ Program konsol Java untuk menghitung pajak pada skema progresif sederhana. Tarif
 
 Program memakai Java Standard Library tanpa dependency tambahan atau database.
 
+## Contoh keluaran terminal
+
+![Contoh keluaran terminal Tax Calculator untuk pendapatan 120000 dengan pajak 10500.00](docs/images/terminal-output.png)
+
+Transkrip hasil eksekusi program yang dirender menjadi gambar, dengan masukan `120000` dan hasil pajak `$10500.00` pada skema latihan ini. Gambar memuat keluaran program; masukan yang dikirim melalui stdin tidak ditampilkan ulang.
+
 ## Skema perhitungan
 
 Tarif berlaku pada bagian pendapatan di setiap lapisan:
